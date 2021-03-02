@@ -289,28 +289,28 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 100%;
 }
 .skills__css{
-  width: 85%;
+  width: 100%;
 }
 .skills__js{
-  width: 60%;
+  width: 100%;
 }
 .skills__php{
-  width: 85%;
+  width: 100%;
 }
 .skills__laravel{
-  width: 80%;
+  width: 100%;
 }
 .skills__reactjs{
-  width: 50%;
+  width: 100%;
 }
 .skills__java{
-  width: 40%;
+  width: 100%;
 }
 .skills__python{
-  width: 30%;
+  width: 100%;
 }
 .skills__img{
   border-radius: .5rem;
@@ -428,6 +428,7 @@ img{
   .home__img{
     width: 457px;
     bottom: 15%;
+    
   }
 
   .about__container, .skills__container{
@@ -460,3 +461,13 @@ img{
     right: 10%;
   }
 }
+
+
+
+@media screen and (max-width: 768px){
+  .home__img{
+    display: none;
+  }
+}
+
+
