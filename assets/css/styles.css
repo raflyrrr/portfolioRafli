@@ -469,6 +469,9 @@ img{
   .home__img{
     display: none;
   }
+  .skills__img{
+    display: none;
+  }
 }
 @media screen and (max-width: 1024px){
   .home__img{
