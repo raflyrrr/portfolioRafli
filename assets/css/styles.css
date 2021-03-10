@@ -429,6 +429,7 @@ img{
     width: 457px;
     bottom: 15%;
     
+    
   }
 
   .about__container, .skills__container{
@@ -469,5 +470,25 @@ img{
     display: none;
   }
 }
+@media screen and (max-width: 1024px){
+  .home__img{
+    width: 340px;
+    bottom: 3%;
+  }
+}
+@media screen and (min-width: 1440px){
+  .home__img{
+    width: 440px;
+    bottom: 25%;
+    
+  }
+}
+@media screen and (min-width: 1920px){
+  .home__img{
+    width: 557px;
+    bottom: 25%;
+  }
+}
+
 
 
